@@ -34,10 +34,10 @@ dependencies {
     def lifecycle_version = '2.0.0-beta01'
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     implementation 'com.android.support:multidex:1.0.3'
-    implementation project(':chat')
-    implementation project(':client')
-    implementation project(':push')
-    implementation project(':avenginekit')
-    implementation project(':emojilibrary')
-    implementation project(':imagepicker')
+    api project(':chat')
+    api project(':client')
+    api project(':push')
+    api project(':avenginekit')
+    api project(':emojilibrary')
+    api project(':imagepicker')
 }

@@ -52,5 +52,5 @@ android {
 dependencies {
     api project(':mars-core-release')
     def lifecycle_version = '2.0.0-beta01'
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 }

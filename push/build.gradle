@@ -39,10 +39,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.huawei.android.hms:push:2.5.3.305'
-    implementation 'com.huawei.android.hms:base:2.5.3.305'
+    api 'com.huawei.android.hms:push:2.5.3.305'
+    api 'com.huawei.android.hms:base:2.5.3.305'
 
-    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
-    implementation project(':client')
-    implementation 'com.meizu.flyme.internet:push-internal:3.4.2@aar'
+    api 'androidx.appcompat:appcompat:1.0.0-beta01'
+    api project(':client')
+    api 'com.meizu.flyme.internet:push-internal:3.4.2@aar'
 }
